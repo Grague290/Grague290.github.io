@@ -32,13 +32,13 @@ let bossEnemySprite;
 let shootSound, enemyHitSound, enemyDestroyedSound, playerHitSound, gameOverSound, levelTransitionSound;
 
 function preload() {
-    playerSprite = loadImage('player.png');
-    enemySprite = loadImage('enemy.png'); 
-    basicEnemySprite = loadImage('basic_enemy.png');
-    zigZagEnemySprite = loadImage('zigzag_enemy.png');
-    fastZigZagEnemySprite = loadImage('fast_zigzag_enemy.png');
-    resistantEnemySprite = loadImage('resistant_enemy.png');
-    bossEnemySprite = loadImage('boss_enemy.png');
+    playerSprite = loadImage('sounds/player.png');
+    enemySprite = loadImage('sounds/enemy.png'); 
+    basicEnemySprite = loadImage('sounds/basic_enemy.png');
+    zigZagEnemySprite = loadImage('sounds/zigzag_enemy.png');
+    fastZigZagEnemySprite = loadImage('sounds/fast_zigzag_enemy.png');
+    resistantEnemySprite = loadImage('sounds/resistant_enemy.png');
+    bossEnemySprite = loadImage('sounds/boss_enemy.png');
 
     soundFormats('wav', 'ogg');
 
