@@ -32,7 +32,7 @@ let bossEnemySprite;
 let shootSound, enemyHitSound, enemyDestroyedSound, playerHitSound, gameOverSound, levelTransitionSound;
 
 function preload() {
-    playerSprite = loadImage('sounds/player.png');
+    playerSprite = loadImage('sounds/player.jpg');
     enemySprite = loadImage('sounds/enemy.png'); 
     basicEnemySprite = loadImage('sounds/basic_enemy.png');
     zigZagEnemySprite = loadImage('sounds/zigzag_enemy.png');
